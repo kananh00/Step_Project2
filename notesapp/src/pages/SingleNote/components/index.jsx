@@ -1,0 +1,1 @@
+export {DeleteWindow} from './DeleteWindow';
