@@ -1,6 +1,5 @@
 import React from 'react';
 import {NoteList} from './components';
-import {SingleNote} from '../../pages';
 export const Homepage = () => {
     return (
         <div style = {{maxWidth: "1600px"}}>

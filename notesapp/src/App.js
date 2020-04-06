@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import {Homepage, Create, Archive, SingleNote} from './pages';
+import {Homepage, Create, Archive, SingleNote, Edit} from './pages';
 import {Header} from './commons';
 import { NotesContextProvider } from './context/notes';
 function App() {
@@ -13,6 +13,7 @@ function App() {
             <Route path = "/create" component = {Create} />
             <Route path = "/singlenote/:id" component = {SingleNote} />
             <Route path = "/archive" component = {Archive} />
+            <Route path = "/edit/:id" component = {Edit} />
           </Switch>
         </NotesContextProvider>
     </Router>

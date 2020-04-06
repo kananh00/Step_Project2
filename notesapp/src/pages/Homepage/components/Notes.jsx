@@ -1,17 +1,14 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { notesContext } from '../../../context/notes';
 import './styles.sass';
 
 export const Notes = ({ title, text, date, color, id}) => {
-    const notesList = useContext(notesContext);
-    const mynote = notesList.find(item => item.id == id);    
-    const dateObj = new Date(date);
+    const dateConvert = new Date(date);
 
-    const month = dateObj.getMonth();
-    const day = dateObj.getDate();
-    const year = dateObj.getFullYear();
+    const month = dateConvert.getMonth();
+    const day = dateConvert.getDate();
+    const year = dateConvert.getFullYear();
 
     return (
         <StyledSingleNote color = {color} to={`/singlenote/${id}`}>

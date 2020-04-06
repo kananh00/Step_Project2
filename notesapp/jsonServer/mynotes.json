@@ -2,42 +2,18 @@
   "notes": [
     {
       "title": "Kanan Huseynli",
-      "text": "Hi)\nFirst of all, I want to say that I have worked alone on this Step Projest.( I have inform you about that before. ) That's why there are some not working requirements in my project, cause of lack of time. Hope, you will take it into consideration)",
+      "text": "Hi)\nFirst of all, I want to say that I have worked alone on this Step Project.( I have inform you about that before. ) That's why there are some not working requirements in my project, cause of lack of time. Hope, you will take it into consideration)",
       "color": "#008B8B",
       "date": 1586027082995,
-      "status": "active",
+      "status": true,
       "id": 27
-    },
-    {
-      "title": "About Archive Page",
-      "text": "I have write code for taking data from jsonServer if its status is archive. And it work you can see some notes in Archive Page which status is archive in Jsonserver. But Archive button in SinglePage doesn't work, I have no time for completing this(",
-      "color": "#C71585",
-      "date": 1586027404213,
-      "status": "archive",
-      "id": 28
-    },
-    {
-      "title": "About Create Page",
-      "text": "The Create Page is work, and completed. But the problem is when click Create button, the ActualPage is opening, but it need to reload manually to see the new note!",
-      "color": "#800000",
-      "date": 1586027605412,
-      "status": "active",
-      "id": 29
-    },
-    {
-      "title": "About Delete button",
-      "text": "Delete button in SinglePage is working, but there is no confirmation window. It just delete the message when click on it, but in Actual Page, it need to reload manually again",
-      "color": "#FF6347",
-      "date": 1586027765747,
-      "status": "active",
-      "id": 30
     },
     {
       "title": "About Edit Button",
       "text": "I just didn't have any time for beginning Edit section. In the Next Days I will tyr write it for myself, but ofcourse I can't load it to gutHub, because of load to gitHub after deadline is not allowed. That's why the message can't be updated. Sorry((",
       "color": "#800000",
       "date": 1586027967181,
-      "status": "active",
+      "status": true,
       "id": 31
     }
   ]

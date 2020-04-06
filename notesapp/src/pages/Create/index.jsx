@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import styled from 'styled-components';
 export const Create = ({ history: { push }}) => {
 
@@ -7,7 +7,7 @@ export const Create = ({ history: { push }}) => {
     text: "",
     color: "#FFB6C1",
     date: Date.now(),
-    status: "active"
+    status: true
   });
 
   const onChange = async (e) => {
